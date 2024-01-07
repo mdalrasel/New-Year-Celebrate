@@ -5,6 +5,8 @@ body{
     font-family: 'Roboto', sans-serif;
     font-family: 'Merriweather', serif;
 }
+
+/* header-container */
 header{
     background: #FFF;
     width: 1320px;
@@ -36,4 +38,41 @@ header{
     font-weight: 900;
     width: 632px;
     padding: 0px 344px 177px 344px;
+}
+
+
+/* section-1-container */
+
+.section-banner{
+    
+    padding: 120px 400px;
+   
+}
+.section-header{
+    color: #F00;
+    text-align: center;
+    font-family: Inter;
+    font-size: 88px;
+    font-weight: 700;
+}
+
+.section-text{
+    color: #F00;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 500;
+    margin-top: -80px;
+}
+.section-title{
+    color: #070211;
+    text-align: center;
+    font-family: Inter;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+}
+.new-year-photo{
+    width: 80px;
+    height: 50px;
+    /* padding: 0px 400px; */
 }
