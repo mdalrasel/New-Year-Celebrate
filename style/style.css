@@ -4,7 +4,7 @@ body{
     font-family: 'Open Sans', sans-serif;
     font-family: 'Roboto', sans-serif;
     font-family: 'Merriweather', serif;
-    background: #978e8e;
+   
    
   
 }
@@ -152,12 +152,14 @@ header{
 
 
 /* offer-section */
-
+.Holidays-offer{
+    background-color: aqua;
+    padding: 10pz 140px;
+}
 .offer-banner{
     display: flex;
     justify-content: space-between;
     margin: 120px 140px;
-    background-color: aqua;
 }
 
 .new-best-offer h5{
@@ -201,5 +203,46 @@ header{
 /* discount-offer */
 
 .discount-offer{
-    background-color: #978e8e;
+    text-align:center
+}
+.discount-offer h5{
+    color: #070211;
+    font-size: 24px;
+    font-weight: 500;
+}
+.discount-offer h2{
+    color: #070211;
+    font-size: 72px;
+    font-weight: 900;
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+.discount-offer h2 > span{
+    color: #F00;
+}
+.discount-offer p{
+    color: rgba(7, 2, 17, 0.60);
+    font-size: 20px;
+    font-weight: 500;
+    width: 850px;
+    height: 90px;
+    margin-top: 28px;
+    margin: 0px 420px;
+}
+.holiday-discount{
+    margin: 68px 140px;
+    background-image: url(../assist/Rectangle\ 2.png) 
+    ;
+    background-repeat: no-repeat;
+    background-position:bottom ;
+    
+    
+}
+
+.discount-box{
+ margin-bottom: 290px;
+ background-image: url(../assist/Rectangle\ 1.png);
+ background-position:right ;
+ background-repeat: no-repeat;
+ 
 }
