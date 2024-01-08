@@ -251,7 +251,6 @@ header{
 /* best-gift */
 
 .best-gift{
-    background-color: aqua;
      padding: 120px 140px;
 }
 .best-gift div > h5{
@@ -281,3 +280,56 @@ header{
 
 /* Subscribe Newsletter */
 
+.Subscribe-Newsletter{
+    margin: 120px 140px;
+    border-radius: 16px;
+    background: rgba(255, 0, 0, 0.05);
+    text-align: center;
+}
+.emial-icon{
+ 
+    width: 150px;
+    padding: 80px 585px 0px 585px;
+}
+.our-portfolio h2{
+    color: #070211;
+
+    font-size: 48px;
+    font-weight: 900;
+}
+.our-portfolio p{
+    color: rgba(7, 2, 17, 0.60);
+    font-size: 20px;
+    font-weight: 400;
+    padding: 15px 212px;  
+    width: 896px;
+}
+.Subscribe{
+    width: 648px;
+    height: 72px;
+    padding: 20px 336px 80px 336px;
+    
+}
+
+.Subscribe input{
+    padding: 10px;
+    border-radius:50px 0px 0px 50px;
+    background: #FFF;
+    border-color:#F00;
+    
+  
+}
+.Subscribe button{
+    padding: 10px;
+    margin-left: -5px;
+    border-radius: 0px 50px 50px 0px;
+    color: #FFF;
+    background-color: #F00;
+    border-color:#F00;
+    
+}
+.Subscribe button:hover{
+    background-color:#FFF;
+    color: #F00;
+    cursor: pointer;
+}
