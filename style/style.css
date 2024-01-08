@@ -286,7 +286,7 @@ header{
     background: rgba(255, 0, 0, 0.05);
     text-align: center;
 }
-.emial-icon{
+.email-icon{
  
     width: 150px;
     padding: 80px 585px 0px 585px;
@@ -332,4 +332,74 @@ header{
     background-color:#FFF;
     color: #F00;
     cursor: pointer;
+}
+
+
+/* footer-section */
+.footer{
+    width: 1600px;
+    height: 609px;
+    background: #070211;
+}
+
+.footer-section{
+    padding: 120px 140px;
+}
+
+.footer-h{
+    display: flex;
+    justify-content: space-between;
+}
+
+.address p{
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 400;
+    width: 300px;
+}
+
+.contact-number{
+    display: flex;
+}
+
+.contact-number img {
+    width: 24px;
+    height: 24px;
+}
+
+.contact-number p{
+    color: #FFF;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.contact-web{
+    display: flex;
+}
+
+.contact-web img {
+    width: 24px;
+    height: 24px;
+}
+
+.contact-web p {
+    color: #FFF;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.footer-m{
+    text-align: center;
+}
+
+.footer-m img {
+    padding: 24px 18px;
+    width: 64px;
+    height: 64px;
+}
+
+.footer-l{
+    display: flex;
+    justify-content: space-between;
+    color: #FFF;
 }
